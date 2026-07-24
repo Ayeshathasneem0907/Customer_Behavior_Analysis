@@ -8,38 +8,29 @@ The goal of this project is to simulate a corporate-grade end-to-end data analyt
 
 ✅ Visualization & Insights (Power BI): Build an interactive dashboard that highlights key patterns and trends, enabling stakeholders to make data-driven decisions.
 
-Procedure to use this project
+# 🛒 Customer Shopping Behavior Analysis Pipeline
 
-1.Open Customer_Shopping_Behavior_Analysis.ipynb notebook
-
+### 📓 1. Open `Customer_Shopping_Behavior_Analysis.ipynb` notebook
 This file contains:
+* **Data Import** — Ingesting the raw consumer behavior datasets.
+* **Data exploration** — Analyzing variable distributions and structural trends.
+* **Data cleaning** — Formatting fields, fixing missing values, and filtering duplicates.
+* **Connection to SQL Database** — Establishing the analytical bridge to the database server.
+* **Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server** — Migrating dataframes into clean relational tables.
+* **Create a database in SQL** — Initializing the operational storage environment.
+* **Run Python code to load data into SQL database** — Executing programmatic pipelines for automatic data transfer.
 
-Data Import
+### 💾 2. Open `customer_behavior_sql_queries.sql`
+This file contains:
+* **Answer Business Questions using SQL Queries** — Executing advanced query scripts to isolate insights.
 
-Data exploration
+### 🔌 3. Connect the SQL Database to Power BI
+* **Database Connection Setup** — Linking the processed relational tables directly into the dashboard platform.
 
-Data cleaning
+### 📊 4. Open `customer_behavior_dashboard.pbix`
+This file contains:
+* **Create interactive dashboard in Power BI** — Structuring visuals, filters, and dynamic metrics.
 
-Connection to SQL Database
-
-2.Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server
-
-Create a database in SQL
-
-Run Python code to load data into SQL database
-
-Open customer_behavior_sql_queries.sql
-
-Answer Business Questions using SQL Queries
-
-3.Connect the SQL Database to Power BI
-
-Open customer_behavior_dashboard.pbix
-
-Create interactive dashboard in Power BI
-
-4.Create Project Report and Presentation
-
-Create project report
-
-Build presentation deck using Gamma AI
+### 📄 5. Create Project Report and Presentation
+* **Create project report** — Documenting the technical methodologies and final summaries.
+* **Build presentation deck using Gamma AI** — Designing the stakeholder-facing slides for reporting.
